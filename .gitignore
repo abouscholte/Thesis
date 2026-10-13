@@ -1,0 +1,51 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Datasets (keep folder placeholders)
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# Trained models and experiment logs
+models/
+outputs/models/
+mlruns/
+wandb/
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Local editor settings
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+._*
+
+# Temporary files and logs
+*.log
+*.tmp
+*.swp
+*~
