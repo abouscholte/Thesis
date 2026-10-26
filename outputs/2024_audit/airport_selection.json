@@ -1,0 +1,24 @@
+{
+  "year": 2024,
+  "rule": "Reported flight records by origin, including cancellations; ties by airport code",
+  "airports": [
+    "ATL",
+    "DFW",
+    "DEN",
+    "ORD",
+    "CLT",
+    "LAX",
+    "PHX",
+    "LAS",
+    "SEA",
+    "LGA"
+  ],
+  "same_membership_without_cancellations": true,
+  "review_counts": {
+    "exact_duplicate_excess_rows": 0,
+    "key_duplicate_excess_rows": 0,
+    "key_missing_rows": 1,
+    "label_mismatches": 0
+  },
+  "schema_consistent": true
+}
