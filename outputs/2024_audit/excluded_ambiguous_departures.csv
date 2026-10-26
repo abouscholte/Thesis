@@ -1,0 +1,5 @@
+Month,DayOfWeek,FlightDate,Reporting_Airline,Flight_Number_Reporting_Airline,Origin,Dest,CRSDepTime,DepDelay,DepDel15,Cancelled,Distance,scheduled_departure_local,timezone,scheduled_departure_utc
+11,7,2024-11-03,NK,1058.0,LAS,SAT,0132,-4.0,0.0,0.0,1069.0,2024-11-03 01:32:00,America/Los_Angeles,
+11,7,2024-11-03,NK,182.0,LAS,ORD,0130,-6.0,0.0,0.0,1514.0,2024-11-03 01:30:00,America/Los_Angeles,
+11,7,2024-11-03,HA,17.0,LAS,HNL,0140,-4.0,0.0,0.0,2762.0,2024-11-03 01:40:00,America/Los_Angeles,
+11,7,2024-11-03,AA,971.0,LAX,DFW,0145,-8.0,0.0,0.0,1235.0,2024-11-03 01:45:00,America/Los_Angeles,
