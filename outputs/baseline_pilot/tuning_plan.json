@@ -1,0 +1,45 @@
+{
+  "primary_metric": "mean validation-airport average precision",
+  "airport_weighting": "equal",
+  "tie_break": "first candidate",
+  "training_period": "2024-01 to 2024-09",
+  "validation_period": "2024-10 to 2014-12",
+  "candidates": {
+    "Logistic regression": [
+      {
+        "logisticregression__C": 0.1
+      },
+      {
+        "logisticregression__C": 1.0
+      },
+      {
+        "logisticregression__C": 10.0
+      }
+    ],
+    "Random forest": [
+      {
+        "randomforestclassifier__max_depth": 10,
+        "randomforestclassifier__min_samples_leaf": 100
+      },
+      {
+        "randomforestclassifier__max_depth": 16,
+        "randomforestclassifier__min_samples_leaf": 50
+      },
+      {
+        "randomforestclassifier__max_depth": 24,
+        "randomforestclassifier__min_samples_leaf": 20
+      }
+    ],
+    "XGBoost": [
+      {
+        "xgbclassifier__max_depth": 3
+      },
+      {
+        "xgbclassifier__max_depth": 4
+      },
+      {
+        "xgbclassifier__max_depth": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+test_airport,validation_airport,flights,delay_rate,average_precision,roc_auc,log_loss,family,variant,candidate_id,settings
+ATL,CLT,54859,0.1903060573470169,0.2597456899695254,0.6114363447211459,0.4859438182914306,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,DEN,77513,0.1694425451214635,0.23910426440963373,0.6208777722863865,0.45674128090169513,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,DFW,77809,0.2159647341567171,0.28599356190857594,0.6007842698514865,0.5143226368965381,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,LAS,48344,0.17778835015720668,0.258026842737753,0.6348515336880285,0.466282108121095,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,LAX,48960,0.1479779411764706,0.18737489612000113,0.5953995708663251,0.4363449414950974,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,LGA,40373,0.14792064003170435,0.24757899962728147,0.6525651484102833,0.42907613148802526,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,ORD,70012,0.1684568359709764,0.2261055173645331,0.605389007219699,0.4559467850578597,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,PHX,51010,0.1690452852381886,0.2192669292422184,0.6096247169733315,0.4637708591658094,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"
+ATL,SEA,38650,0.1596895213454075,0.22577398994273853,0.611022770905452,0.4431071101593167,Random forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}"

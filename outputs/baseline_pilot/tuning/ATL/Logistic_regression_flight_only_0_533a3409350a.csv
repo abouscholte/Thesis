@@ -1,0 +1,10 @@
+test_airport,validation_airport,flights,delay_rate,average_precision,roc_auc,log_loss,family,variant,candidate_id,settings
+ATL,CLT,54859,0.1903060573470169,0.25672070607169917,0.6107378834296427,0.5187118968122997,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,DEN,77513,0.1694425451214635,0.2451403080374429,0.6220369250407449,0.46486711343317,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,DFW,77809,0.2159647341567171,0.29552353219766214,0.6176693843565021,0.5163419846077136,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,LAS,48344,0.17778835015720668,0.2629993311769713,0.646471477632089,0.47489089919681005,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,LAX,48960,0.1479779411764706,0.1965162102550758,0.6008537243795127,0.44305542718325386,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,LGA,40373,0.14792064003170435,0.24336185782749342,0.650662496902057,0.4153262118872976,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,ORD,70012,0.1684568359709764,0.22938613609443437,0.6104097937912056,0.4571481287929848,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,PHX,51010,0.1690452852381886,0.23550389454603668,0.6195154812106506,0.48132478888278063,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
+ATL,SEA,38650,0.1596895213454075,0.21692140743650218,0.5975515675858871,0.44152405576922304,Logistic regression,flight_only,0,"{""logisticregression__C"": 0.1}"
