@@ -1,0 +1,10 @@
+test_airport,validation_airport,flights,delay_rate,average_precision,roc_auc,log_loss,family,variant,candidate_id,settings
+DEN,ATL,86517,0.1593444063016517,0.22656851632434022,0.604608493721849,0.44523475628379977,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,CLT,54859,0.1903060573470169,0.2521884146859854,0.6013031900418162,0.49089110423797033,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,DFW,77809,0.2159647341567171,0.298826219157338,0.6191646137035646,0.5104075163418705,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,LAS,48344,0.17778835015720668,0.25093805688637744,0.6347554171770501,0.4642376038900336,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,LAX,48960,0.1479779411764706,0.19076717494582637,0.5982707893212404,0.433126401079517,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,LGA,40373,0.14792064003170435,0.23190741747033938,0.6417344631623254,0.42196046058104864,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,ORD,70012,0.1684568359709764,0.22015680363747997,0.5918789452831278,0.45465848546257187,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,PHX,51010,0.1690452852381886,0.21631291957765791,0.6088978804587488,0.4639026760366588,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"
+DEN,SEA,38650,0.1596895213454075,0.21746531491990997,0.6000216652963787,0.4426524487980804,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}"

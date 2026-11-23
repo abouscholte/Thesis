@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+PHX,logistic,weather,0.0034637461018738325,0.0030345115500564042,0.0039053424469862553,1000

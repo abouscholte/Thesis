@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+ATL,forest,flight_only,-0.00022866766636325808,-0.0037096009842911087,0.0037072212565664882,1000

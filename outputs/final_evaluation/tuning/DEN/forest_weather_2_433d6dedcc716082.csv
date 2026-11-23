@@ -1,0 +1,10 @@
+test_airport,validation_airport,flights,delay_rate,average_precision,roc_auc,log_loss,family,variant,candidate_id,settings
+DEN,ATL,86517,0.1593444063016517,0.22774235470285725,0.6061086020835702,0.4399880703184215,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,CLT,54859,0.1903060573470169,0.26320991076107,0.6106968297539996,0.4823847060876826,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,DFW,77809,0.2159647341567171,0.31120424410258596,0.6239671724122808,0.5071395872211025,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,LAS,48344,0.17778835015720668,0.263221442523673,0.6385123470604103,0.4560600163567415,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,LAX,48960,0.1479779411764706,0.19741782907076474,0.6057317362790839,0.4280314631316907,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,LGA,40373,0.14792064003170435,0.2651827914774201,0.672093749786437,0.4081815905023427,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,ORD,70012,0.1684568359709764,0.24359719537989527,0.6277230667330951,0.44489130866456295,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,PHX,51010,0.1690452852381886,0.2295539351842858,0.6174041147191252,0.45660076459999255,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"
+DEN,SEA,38650,0.1596895213454075,0.23317912210466898,0.6221371767007385,0.43200772147561406,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}"

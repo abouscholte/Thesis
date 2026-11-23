@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+DEN,forest,flight_only,0.0026842997180436257,-0.0004912727289058352,0.005793059831905102,1000

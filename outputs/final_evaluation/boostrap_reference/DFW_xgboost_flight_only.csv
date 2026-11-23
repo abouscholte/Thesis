@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+DFW,xgboost,flight_only,0.0075610908215935635,0.005054500916341796,0.010043877767756663,1000

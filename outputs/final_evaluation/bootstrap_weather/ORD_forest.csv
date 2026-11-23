@@ -1,0 +1,2 @@
+airport,family,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+ORD,forest,0.02895654426287758,0.018777816449092103,0.039342236862887105,1000

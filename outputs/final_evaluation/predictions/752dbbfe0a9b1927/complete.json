@@ -1,0 +1,17 @@
+{
+  "training_data": "6bbeb6ec0a2959a32b4f035cd76225317db8f7a11f55b10165bd5587a9dd9166",
+  "test_data": "b9bd436730c5c68f3ea5686e5b97af23bf3aa2a37702a95bc6e2a3e0a5c74a1e",
+  "code": "d9f9258d123bd04193b91460fbb48be58fe9a35c74f85cf25b7914871b65084a",
+  "airport": "SEA",
+  "family": "logistic",
+  "variant": "weather",
+  "settings": {
+    "logisticregression__C": 0.1
+  },
+  "versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "xgboost": "3.4.1"
+  }
+}

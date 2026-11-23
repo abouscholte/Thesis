@@ -1,0 +1,2 @@
+airport,family,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+LGA,forest,0.025156711328047865,0.017307116122599213,0.03305095003120268,1000

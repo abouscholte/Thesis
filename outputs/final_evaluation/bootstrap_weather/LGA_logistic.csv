@@ -1,0 +1,2 @@
+airport,family,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+LGA,logistic,0.02541848366661581,0.015688695474482928,0.03665731624405394,1000

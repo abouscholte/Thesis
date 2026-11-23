@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+PHX,xgboost,flight_only,0.005152776529615766,0.004307755823454514,0.005974505804182733,1000

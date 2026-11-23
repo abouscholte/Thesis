@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+PHX,xgboost,weather,0.0059955215265575235,0.0036469940630110597,0.0084702494702523,1000

@@ -49,3 +49,5 @@ wandb/
 *.tmp
 *.swp
 *~
+# Per-flight prediction files (retain summaries and metadata)
+outputs/final_evaluation/predictions/**/*.csv.gz

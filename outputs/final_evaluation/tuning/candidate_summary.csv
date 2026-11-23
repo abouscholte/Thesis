@@ -1,0 +1,181 @@
+test_airport,family,variant,candidate_id,settings,average_precision,roc_auc,log_loss
+ATL,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23186447622655507,0.6086169360347607,0.46510987941494303
+ATL,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.2375255153689235,0.6134047182955725,0.4620859719130096
+ATL,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24219233175449562,0.6174225780655287,0.45994533587949005
+ATL,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23877452125802895,0.6157723483246821,0.46128174128631855
+ATL,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24707381008657622,0.6233519586214714,0.45707818950528506
+ATL,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2527268050822091,0.6283573316740614,0.45389339661443073
+ATL,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.24245259818259082,0.6195454149253657,0.4681322785072815
+ATL,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.24244599747046858,0.6195878553405152,0.4687122324191733
+ATL,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.24242362674535733,0.61949781897644,0.4687615565448554
+ATL,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.2585522056926429,0.6321268345228371,0.46734905654200204
+ATL,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.25840783013813895,0.6319536188695253,0.467834870434435
+ATL,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.2583410251737921,0.6319095833117205,0.46796987501249987
+ATL,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.24225748991652044,0.6180861266978507,0.46161871155103046
+ATL,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.24443198912601113,0.6194303015379343,0.4609801173210144
+ATL,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.24712227671778308,0.62168118599771,0.4596540927886963
+ATL,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.25639136771287474,0.6290179772641749,0.4521769815021091
+ATL,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.2585546286402696,0.6322471857469443,0.4517389171653324
+ATL,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.2605340149130638,0.6344471026508912,0.45246947805086773
+CLT,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23159370725544182,0.6107141699759425,0.4581592112132999
+CLT,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.2364285662811774,0.6151805451904926,0.45498240797228845
+CLT,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24078201765811322,0.618855880930211,0.45260041037277116
+CLT,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23625665162316395,0.6167358047670112,0.454894348591232
+CLT,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24405897131542056,0.6241776539832904,0.4508268436884303
+CLT,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.249311039433329,0.6289321976127406,0.4476452699158602
+CLT,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.23922937489709895,0.6192624579925616,0.45956377112107094
+CLT,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.23918626016940786,0.6192520951340088,0.4599394575616014
+CLT,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.2391067204135719,0.6190938566339056,0.459961900915167
+CLT,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.25640879497579566,0.6343674940360599,0.45828048828601925
+CLT,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.2563280451241127,0.6343919722874929,0.4588630784580538
+CLT,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.256348349146601,0.6343177941847373,0.45882979865676826
+CLT,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.23927240584037365,0.6179341854175326,0.45338307486640084
+CLT,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.24187966869514144,0.6202631751536694,0.4525321490234799
+CLT,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.2438475783122237,0.6222688082250707,0.45166058010525173
+CLT,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.2517862718475042,0.6285637014817002,0.4454021453857422
+CLT,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.2554680039504803,0.6323209561992393,0.4445625775390201
+CLT,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.2574862140080379,0.6355392584125448,0.44471999671724105
+DEN,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.22883441151141262,0.6062302735665481,0.4615620607556872
+DEN,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.23390342640058379,0.6111817175740113,0.4585634947457279
+DEN,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.23886597446513408,0.6151642266792189,0.4565195246947337
+DEN,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23256864648953618,0.6106908695255437,0.45769113860667754
+DEN,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24120916171885426,0.6187406501107031,0.45372559786687305
+DEN,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24825653614524676,0.6249305328365268,0.45058724759535007
+DEN,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.24028413942616542,0.6177536484469272,0.46444801576542794
+DEN,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.24025316463255994,0.6176644002072007,0.46497139402913795
+DEN,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.240213170269166,0.6176918562405892,0.46501319660598184
+DEN,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.2551975903012995,0.6292277858784353,0.4620885928573107
+DEN,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.25507237930111964,0.6290919096589015,0.46261320616913376
+DEN,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.25508428614961504,0.6290616089496909,0.4627309974325711
+DEN,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.2385535349489872,0.6151398765048691,0.45654476351208156
+DEN,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.24174128786763444,0.6173009014559665,0.45569752322302925
+DEN,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.24478999853561362,0.6195548969385269,0.4549982017940945
+DEN,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.25067996316491903,0.6247525155147239,0.44882309767935014
+DEN,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.25429049250557284,0.6284609767239575,0.44809042745166355
+DEN,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.25515509905456046,0.630787437146925,0.4486747980117798
+DFW,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23246271019673304,0.6144659532686712,0.45324020305739027
+DFW,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.23653773220267343,0.6178481345793353,0.45034592172068116
+DFW,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.23962121413588303,0.6202377355930364,0.4485099561619508
+DFW,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23673283068756787,0.6204788252898416,0.4502486097352375
+DFW,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24273429486341572,0.6258165735995658,0.44642467778501627
+DFW,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2476759732008754,0.6298505824806065,0.443425458413309
+DFW,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.2386599299630573,0.6217592825678007,0.45584687440064087
+DFW,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.23857410800847212,0.621718391668925,0.4562809616209909
+DFW,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.238555505176645,0.6217188153530234,0.4564249067577522
+DFW,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.25290004926139975,0.6340287089943311,0.4550063515080247
+DFW,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.252777326659917,0.634069370140075,0.4556243529324727
+DFW,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.252861167847326,0.6340859575882245,0.45569497759240796
+DFW,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.23938968537967348,0.6203481549330357,0.4494323962264591
+DFW,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.24119647722686283,0.6219695249334671,0.44838745064205593
+DFW,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.24267899086249145,0.623652719808676,0.4475700325436062
+DFW,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.24928003230934237,0.6287611017004248,0.440852294365565
+DFW,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.25135671219085504,0.6317723014467229,0.44023907184600825
+DFW,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.25223263833769805,0.6342421835201928,0.4406617118252648
+LAS,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.2276148237237592,0.6040820578271091,0.4611182498042496
+LAS,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.23302017507766426,0.6087350628779652,0.4585312768141936
+LAS,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2376099708299112,0.6127542191503647,0.45656284567368755
+LAS,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23356577462123587,0.6114040420159038,0.45743652513430344
+LAS,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24124761458504101,0.6183505364871132,0.45337462392901884
+LAS,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24871709060318611,0.6241898911038004,0.45012812980070055
+LAS,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.2387206965127598,0.6153522303792431,0.46446678623492776
+LAS,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.23875944157092055,0.6154526980429827,0.46480308246545415
+LAS,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.23870760633198135,0.6153838420485626,0.4648637696451601
+LAS,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.25638864370279785,0.6301856607546089,0.46329966357121855
+LAS,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.2562653013176367,0.6300677812654722,0.46384807448739146
+LAS,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.2564238904943658,0.630220344716196,0.4639544282147716
+LAS,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.23743922103951137,0.6132371872288362,0.4580689006381565
+LAS,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.24025729586787234,0.6148958879592281,0.45750630564159817
+LAS,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.242950442891762,0.6174641691386289,0.4561593797471788
+LAS,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.25108203030497644,0.6244545517700184,0.4483811855316162
+LAS,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.2528879120508172,0.6272710706578938,0.448193543487125
+LAS,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.2540544436083148,0.6295926022862117,0.448317074113422
+LAX,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23635926745999625,0.6112794767537976,0.4666646774543073
+LAX,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24098411031782108,0.6154425655253539,0.463668530854915
+LAX,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24581858846785576,0.619229000852231,0.4616839294237238
+LAX,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.24276740659555282,0.618335798092797,0.46271759647403843
+LAX,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.25193342864496815,0.6248332392964684,0.4582523779531111
+LAX,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2578932257806595,0.6301737118774337,0.4546499826631729
+LAX,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.24653589467385245,0.6213913158212172,0.4698604622976905
+LAX,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.2466221601807556,0.6213922329853916,0.4703846058490815
+LAX,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.2465688052059014,0.6213437292584998,0.47042567742518543
+LAX,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.26683403647869747,0.6373000667775587,0.4689526946221599
+LAX,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.26675031922650044,0.6372671761097471,0.4696141788735118
+LAX,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.266651962291101,0.6371721369722746,0.4697462170446562
+LAX,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.2448617718631134,0.6187318585978099,0.4628312587738037
+LAX,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.248164348281525,0.6210835645033768,0.4619939559035831
+LAX,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.250136951201996,0.6230828403303491,0.46118724677297807
+LAX,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.2592595082718655,0.6290719731288703,0.45253150661786395
+LAX,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.26025251517313364,0.631499121111481,0.4520626597934299
+LAX,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.2625315995735333,0.6344215063007362,0.452254550324546
+LGA,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23167033324286856,0.6037059339785157,0.46708462577311294
+LGA,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.23700093172007344,0.6082552132149843,0.46439882767455676
+LGA,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24111035655125126,0.6118803609174931,0.46266238826960226
+LGA,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23736022286153005,0.6095637783221315,0.4632323460929457
+LGA,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24399227673505441,0.6160961240837216,0.45968547096223134
+LGA,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24980823502365887,0.621077933043581,0.4570177436613629
+LGA,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.2414231869197908,0.6151193509145203,0.4723054730777577
+LGA,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.24133982473867865,0.6150646087896356,0.47281145703330424
+LGA,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.24135848588958864,0.6150091207199333,0.472917174120689
+LGA,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.25692321042059846,0.6274281097057877,0.4732195604586533
+LGA,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.25688335363295217,0.6273762456358903,0.47371084660586654
+LGA,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.2567568682529493,0.6272953255315801,0.47362015339285424
+LGA,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.2408749629984261,0.6126057754789125,0.4634795023335351
+LGA,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.2434480994592738,0.6149739934457802,0.4628886646694607
+LGA,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.24565948345421365,0.6169492577175193,0.4619866642687056
+LGA,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.25133791292230767,0.6203244823758057,0.4560764895545112
+LGA,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.25336917812040494,0.6236461740054439,0.4558670421441396
+LGA,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.25584502412860854,0.6269168097605291,0.45623264378971523
+ORD,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23388611229901501,0.6094035391307048,0.4622590962491622
+ORD,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.23831490089118176,0.6128985471551144,0.4595015531597391
+ORD,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2434460445085342,0.6173207827972738,0.4573100318570114
+ORD,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.24025785045373999,0.6162129022085499,0.4587721829686679
+ORD,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24771186132212009,0.6220796186650408,0.4547051160708721
+ORD,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2542213256229319,0.627066274908497,0.45173363371502734
+ORD,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.24323485890740867,0.6199837372453446,0.4658877007795081
+ORD,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.2432805881499761,0.6199777635916042,0.4663143607553572
+ORD,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.24334363526317557,0.6200300572937117,0.46629359809941906
+ORD,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.2586570728523394,0.6324085158086522,0.4654089778106024
+ORD,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.2586241556407539,0.6323664945709212,0.46576723680642335
+ORD,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.25860258860978225,0.6324029902355285,0.46586770522702875
+ORD,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.24275394627133087,0.6172919797710024,0.45687972837024265
+ORD,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.245920359038175,0.6201323367621064,0.4562263952361213
+ORD,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.24878788202891236,0.6231875711323289,0.4552011357413398
+ORD,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.25534936702530514,0.6260238494113899,0.450306988424725
+ORD,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.25875921931719803,0.6293108970202675,0.44947681824366253
+ORD,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.26217736662916674,0.6335546287791858,0.44931022657288444
+PHX,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23257425982181518,0.6091414004802383,0.46336169127269033
+PHX,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.23753712796942164,0.6131507754083526,0.4603377293907245
+PHX,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.24149975118532632,0.6163973611890277,0.4584318021706076
+PHX,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23837916310939708,0.6161418721509229,0.45916588155290916
+PHX,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24652198919934099,0.6224419623561602,0.45517118560439596
+PHX,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2521931023326093,0.6270762534401403,0.4515739775624884
+PHX,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.24244441311002257,0.6189196276939333,0.46624962607308224
+PHX,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.24244365869969497,0.6189454724477609,0.46668239613622503
+PHX,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.24243613534585298,0.6188961095207791,0.46673610831818646
+PHX,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.25983323559324256,0.6336359260041503,0.4645595887257498
+PHX,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.25992192803420755,0.6338128886193808,0.46511564955847295
+PHX,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.25999024808130466,0.633849412985386,0.4652357334714975
+PHX,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.24104368810241242,0.616613029176901,0.4589623080359565
+PHX,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.24381841282441652,0.6183137571433401,0.45818719930118984
+PHX,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.24547673405896647,0.6198927308235407,0.458069642384847
+PHX,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.25404009861071547,0.626720168674975,0.4496118956142002
+PHX,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.25616574967302075,0.6294810681433367,0.44928377866744995
+PHX,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.25769682645895936,0.6326285113358769,0.4494628806908925
+SEA,forest,flight_only,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23535966934218303,0.6123564712434292,0.4639284709369504
+SEA,forest,flight_only,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.23963345738379577,0.615793906197461,0.46109038890083187
+SEA,forest,flight_only,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2438529590663355,0.6195609731199443,0.45896177827752854
+SEA,forest,weather,0,"{""randomforestclassifier__max_depth"": 10, ""randomforestclassifier__min_samples_leaf"": 100}",0.23978309202995746,0.6174320812176979,0.45988272445092016
+SEA,forest,weather,1,"{""randomforestclassifier__max_depth"": 16, ""randomforestclassifier__min_samples_leaf"": 50}",0.24717863178433946,0.6235868863541405,0.4556758520355074
+SEA,forest,weather,2,"{""randomforestclassifier__max_depth"": 24, ""randomforestclassifier__min_samples_leaf"": 20}",0.2535692506485174,0.6287075642078188,0.45259213112304014
+SEA,logistic,flight_only,0,"{""logisticregression__C"": 0.1}",0.24406883634743096,0.6210602468669014,0.4686722711107745
+SEA,logistic,flight_only,1,"{""logisticregression__C"": 1.0}",0.24408420997607885,0.6210230881005959,0.4691725308113507
+SEA,logistic,flight_only,2,"{""logisticregression__C"": 10.0}",0.2440435092484129,0.621002508423898,0.4692413628787419
+SEA,logistic,weather,0,"{""logisticregression__C"": 0.1}",0.261687938370488,0.6345791950622233,0.46765444594699457
+SEA,logistic,weather,1,"{""logisticregression__C"": 1.0}",0.26167685532899626,0.6345440098999472,0.46815311007312804
+SEA,logistic,weather,2,"{""logisticregression__C"": 10.0}",0.26166224311101466,0.6345880628951819,0.46825168438020637
+SEA,xgboost,flight_only,0,"{""xgbclassifier__max_depth"": 3}",0.24322009527466473,0.6197714297376907,0.4589459366268582
+SEA,xgboost,flight_only,1,"{""xgbclassifier__max_depth"": 4}",0.2465846986567094,0.621951999403306,0.45821666717529297
+SEA,xgboost,flight_only,2,"{""xgbclassifier__max_depth"": 6}",0.2486595964527908,0.6241402740389349,0.45748254656791687
+SEA,xgboost,weather,0,"{""xgbclassifier__max_depth"": 3}",0.25578550211125756,0.6289224341460741,0.45059794849819607
+SEA,xgboost,weather,1,"{""xgbclassifier__max_depth"": 4}",0.2584357695249079,0.6310189874332472,0.45041127999623615
+SEA,xgboost,weather,2,"{""xgbclassifier__max_depth"": 6}",0.25996442819019383,0.6340157419793984,0.4509288039472368

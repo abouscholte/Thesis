@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+LAX,xgboost,flight_only,0.00992820219560081,0.00833886658429046,0.011373722092931454,1000

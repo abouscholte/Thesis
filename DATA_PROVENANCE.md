@@ -22,3 +22,14 @@
 - Input manifest: `outputs/2024_audit/input_manifest.csv` records filenames, file sizes, SHA-256 hashes, and row counts for the audited 2024 files.
 - Intended use: 2024 for model development and validation; 2025 for final evaluation. The local `data/raw/bts/2025/` directory was empty when this note was added on **28 October 2026**.
 - Airport selection is derived from full-year 2024 reported flight counts; the downloaded source files retain all reporting origins.
+
+
+## BTS 2025 downloads — 17 November 2026
+
+- Downloaded all twelve official pre-zipped Reporting Carrier On-Time Performance files from https://www.transtats.bts.gov/PREZIP/ on **17 November 2026** (Europe/Amsterdam).
+- Storage: `data/raw/bts/2025/otr_{month:02d}_2025.csv`; CSV contents extracted unchanged, with filenames renamed locally.
+- Verified 7,001,619 total records. Every record has the expected 2025 year and month; every calendar day is represented. All twelve CSV headers match the January 2024 raw-file header and include the required modelling and audit fields.
+- Manifest: `outputs/2025_audit/download_manifest.json` records each source URL, UTC acquisition timestamp, SHA-256 checksum, file size, row count, and date coverage.
+- Earlier incorrect/incomplete downloads were preserved in `data/raw/bts/2025/previous_downloads_20261117T223806Z/`. These are not experiment inputs. Load only the twelve top-level `otr_*_2025.csv` files.
+- Original downloaded ZIP archives are retained in `data/raw/bts/2025/download_staging/`.
+- This step checked acquisition, schema, and date coverage only. Cleaning, weather matching, and final model evaluation remain separate steps; no 2025 model performance was examined.

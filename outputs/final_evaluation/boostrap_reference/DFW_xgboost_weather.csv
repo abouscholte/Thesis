@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+DFW,xgboost,weather,0.022978612938864773,0.017435644160207722,0.02887119023766017,1000

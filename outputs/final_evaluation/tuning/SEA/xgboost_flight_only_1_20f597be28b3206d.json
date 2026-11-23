@@ -1,0 +1,25 @@
+{
+  "data": "6bbeb6ec0a2959a32b4f035cd76225317db8f7a11f55b10165bd5587a9dd9166",
+  "code": "43e352fad23fe6c1a426678df3dc9e026d697c39ec9509c7a89f71c73debcbba",
+  "versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "xgboost": "3.4.1"
+  },
+  "test_airport": "SEA",
+  "family": "xgboost",
+  "variant": "flight_only",
+  "candidate_id": 1,
+  "settings": {
+    "xgbclassifier__max_depth": 4
+  },
+  "columns": [
+    "Reporting_Airline",
+    "Dest",
+    "Month",
+    "DayOfWeek",
+    "departure_hour",
+    "Distance"
+  ]
+}

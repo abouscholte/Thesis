@@ -1,0 +1,4 @@
+Month,DayOfWeek,FlightDate,Reporting_Airline,Flight_Number_Reporting_Airline,Origin,Dest,CRSDepTime,DepDelay,DepDel15,Cancelled,Distance,scheduled_departure_local,timezone,scheduled_departure_utc
+11,7,2025-11-02,NK,1150,LAS,ORD,0120,-4.0,0.0,0.0,1514.0,2025-11-02 01:20:00,America/Los_Angeles,
+11,7,2025-11-02,NK,1332,LAX,ORD,0120,-10.0,0.0,0.0,1744.0,2025-11-02 01:20:00,America/Los_Angeles,
+11,7,2025-11-02,AA,3110,LAX,PHL,0119,-10.0,0.0,0.0,2402.0,2025-11-02 01:19:00,America/Los_Angeles,

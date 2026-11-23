@@ -1,0 +1,2 @@
+airport,family,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+SEA,logistic,0.010879019934227296,0.006646290479391597,0.015863249964874784,1000

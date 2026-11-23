@@ -1,0 +1,2 @@
+airport,family,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+LAX,logistic,0.007237508903353451,0.003443222051310434,0.011313991889620574,1000

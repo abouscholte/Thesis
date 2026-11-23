@@ -1,0 +1,2 @@
+airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
+CLT,logistic,flight_only,8.275972865229297e-05,-0.0013858892927462673,0.0015617007689072663,1000

@@ -1,0 +1,150 @@
+{
+  "files": [
+    {
+      "file": "otr_01_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip",
+      "downloaded_at_utc": "2026-11-17T22:40:37.650337+00:00",
+      "rows": 539747,
+      "min_date": "2025-01-01",
+      "max_date": "2025-01-31",
+      "days": 31,
+      "sha256": "d7c7d59452cad1215d9605e8ff350a4bad7282750765084fe57928a5ad275453",
+      "bytes": 243177378,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_02_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_2.zip",
+      "downloaded_at_utc": "2026-11-17T22:39:56.725743+00:00",
+      "rows": 504884,
+      "min_date": "2025-02-01",
+      "max_date": "2025-02-28",
+      "days": 28,
+      "sha256": "fd6b7aa423cfe89be9d8dfa9374ffe23e6d42ea306b710b58313dba0ca0cfa0e",
+      "bytes": 228245475,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_03_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_3.zip",
+      "downloaded_at_utc": "2026-11-17T22:42:02.386389+00:00",
+      "rows": 600872,
+      "min_date": "2025-03-01",
+      "max_date": "2025-03-31",
+      "days": 31,
+      "sha256": "ba031a484a67f743869bc1284a09fa1de61cf35a6da010e87674a3dc128590d0",
+      "bytes": 271623365,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_04_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_4.zip",
+      "downloaded_at_utc": "2026-11-17T22:43:08.352624+00:00",
+      "rows": 583950,
+      "min_date": "2025-04-01",
+      "max_date": "2025-04-30",
+      "days": 30,
+      "sha256": "1124d8e68633acc2aeff5e1f1994a6bdc90af18370aa0440ad8bcbd2928f3307",
+      "bytes": 264080573,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_05_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_5.zip",
+      "downloaded_at_utc": "2026-11-17T22:44:11.930357+00:00",
+      "rows": 605648,
+      "min_date": "2025-05-01",
+      "max_date": "2025-05-31",
+      "days": 31,
+      "sha256": "644c6d36949a7d563b7dc44a3f5fe4091edfcf12384b7b1cd89324536e57f5f8",
+      "bytes": 274325754,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_06_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_6.zip",
+      "downloaded_at_utc": "2026-11-17T22:45:51.850719+00:00",
+      "rows": 611575,
+      "min_date": "2025-06-01",
+      "max_date": "2025-06-30",
+      "days": 30,
+      "sha256": "a5b0b743e01ea5c06fe721f4435923cab6ffc400b714823b614e187a2bea833e",
+      "bytes": 277398709,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_07_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip",
+      "downloaded_at_utc": "2026-11-17T22:46:57.699724+00:00",
+      "rows": 631428,
+      "min_date": "2025-07-01",
+      "max_date": "2025-07-31",
+      "days": 31,
+      "sha256": "8e1889b42eb9a78bad273d7bb415305e4fe86af4d154fe40203484c402081eb5",
+      "bytes": 286174102,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_08_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip",
+      "downloaded_at_utc": "2026-11-17T22:48:39.626142+00:00",
+      "rows": 602378,
+      "min_date": "2025-08-01",
+      "max_date": "2025-08-31",
+      "days": 31,
+      "sha256": "8300437f9b545871a3914fe33e4855fa15e3237c6aa3f6996d7e3f34abe6167f",
+      "bytes": 272692924,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_09_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip",
+      "downloaded_at_utc": "2026-11-17T22:49:04.270491+00:00",
+      "rows": 562439,
+      "min_date": "2025-09-01",
+      "max_date": "2025-09-30",
+      "days": 30,
+      "sha256": "6b189acc187fcb51deb4821f12b87ab68b43a1ea2a34e3bb073a8fd807b1120b",
+      "bytes": 254072675,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_10_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_10.zip",
+      "downloaded_at_utc": "2026-11-17T22:51:02.601709+00:00",
+      "rows": 605844,
+      "min_date": "2025-10-01",
+      "max_date": "2025-10-31",
+      "days": 31,
+      "sha256": "1162446fa628fd43729e28f5741bd1ad5b2a8012deace8efff6595c69f1b3070",
+      "bytes": 274710359,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_11_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_11.zip",
+      "downloaded_at_utc": "2026-11-17T22:51:47.453249+00:00",
+      "rows": 570550,
+      "min_date": "2025-11-01",
+      "max_date": "2025-11-30",
+      "days": 30,
+      "sha256": "6d6d63f3bb312a6695d4a8b17958bc47e4e71fdf7396ec882c9c9a61faa6efc2",
+      "bytes": 258071953,
+      "schema_matches_2024": true
+    },
+    {
+      "file": "otr_12_2025.csv",
+      "source_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_12.zip",
+      "downloaded_at_utc": "2026-11-17T22:53:37.012684+00:00",
+      "rows": 582304,
+      "min_date": "2025-12-01",
+      "max_date": "2025-12-31",
+      "days": 31,
+      "sha256": "ed0a645562652fe2d816fbcb13ba46df6e3306344d9c4728c7ce5fe57bbd0db5",
+      "bytes": 264519889,
+      "schema_matches_2024": true
+    }
+  ],
+  "errors": [],
+  "previous_files_backup": "/Users/alainbouscholte/Developer/Thesis/data/raw/bts/2025/previous_downloads_20261117T223806Z"
+}
