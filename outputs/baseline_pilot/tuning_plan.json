@@ -3,7 +3,7 @@
   "airport_weighting": "equal",
   "tie_break": "first candidate",
   "training_period": "2024-01 to 2024-09",
-  "validation_period": "2024-10 to 2014-12",
+  "validation_period": "2024-10 to 2024-12",
   "candidates": {
     "Logistic regression": [
       {

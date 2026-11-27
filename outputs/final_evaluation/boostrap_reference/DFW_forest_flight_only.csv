@@ -1,2 +1,0 @@
-airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
-DFW,forest,flight_only,0.008936330369038459,0.006290999133799481,0.011494264596608001,1000

@@ -21,7 +21,7 @@ def clean_weather(df):
     for var in weather_vars:
         source = pd.to_numeric(df[f"{var}_Source_Code"])
         quality = df[f"{var}_Quality_Code"].astype("string").str.strip().str.replace(r"\.0$", "", regex=True)
-        keep = (source.eq(223) & quality.eq("1")) | (source.eq(343) & quality.isin(["1", "5", "A"])).fillna(False)
+        keep = ((source.eq(223) & quality.eq("1")) | (source.eq(343) & quality.isin(["1", "5", "A"]))).fillna(False)
 
         result[var] = df[var].where(keep)
 

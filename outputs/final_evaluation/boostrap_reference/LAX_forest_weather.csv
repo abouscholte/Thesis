@@ -1,2 +1,0 @@
-airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
-LAX,forest,weather,0.00828506236762444,0.0062945566065539995,0.010319063857789993,1000

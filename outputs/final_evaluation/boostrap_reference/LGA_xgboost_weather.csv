@@ -1,2 +1,0 @@
-airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
-LGA,xgboost,weather,0.013388718015557854,0.00905552105420025,0.018096952999176012,1000

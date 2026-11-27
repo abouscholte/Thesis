@@ -1,2 +1,0 @@
-airport,family,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
-DFW,xgboost,-0.004007006677780978,-0.012502818696680018,0.00429911179152215,1000

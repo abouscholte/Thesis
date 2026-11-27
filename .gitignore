@@ -51,3 +51,6 @@ wandb/
 *~
 # Per-flight prediction files (retain summaries and metadata)
 outputs/final_evaluation/predictions/**/*.csv.gz
+
+# Thesis writing stays local
+/writing/

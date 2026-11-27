@@ -1,2 +1,0 @@
-airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
-CLT,xgboost,flight_only,0.0024332545504985315,-0.0007230515248947078,0.005658289332674991,1000

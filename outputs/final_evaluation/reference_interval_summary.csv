@@ -1,0 +1,7 @@
+family,variant,above_zero,includes_zero,below_zero
+forest,flight_only,6,4,0
+forest,weather,6,4,0
+logistic,flight_only,9,1,0
+logistic,weather,9,1,0
+xgboost,flight_only,7,3,0
+xgboost,weather,10,0,0

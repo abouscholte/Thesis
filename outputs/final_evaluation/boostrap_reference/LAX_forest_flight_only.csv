@@ -1,2 +1,0 @@
-airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
-LAX,forest,flight_only,0.006255064743955319,0.005308053532354595,0.007253779581762188,1000

@@ -1,2 +1,0 @@
-airport,family,variant,ap_difference,ci_lower,ci_upper,bootstrap_repetitions
-DFW,logistic,weather,0.008114344888956238,0.006502424603064684,0.0096202596301078,1000
